@@ -66,10 +66,12 @@
     <Compile Include="Assets\Main Menu\GUI Elements\UI_BrightnessShader\Brightness.cs" />
     <Compile Include="Assets\Main Menu\MenuScripts\Init_LoadPreferences.cs" />
     <Compile Include="Assets\Main Menu\MenuScripts\MenuController.cs" />
+    <Compile Include="Assets\NoiseMapGeneration.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\XP.cs" />
+    <Compile Include="Assets\TileGeneration.cs" />
     <None Include="Assets\Main Menu\GUI Elements\UI_BrightnessShader\BrightnessEffect.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
