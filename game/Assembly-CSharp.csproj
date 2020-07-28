@@ -63,6 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Bomb.cs" />
+    <Compile Include="Assets\GraczKucanie.cs" />
+    <Compile Include="Assets\GrenadeThrower.cs" />
+    <Compile Include="Assets\Gun.cs" />
     <Compile Include="Assets\Main Menu\GUI Elements\UI_BrightnessShader\Brightness.cs" />
     <Compile Include="Assets\Main Menu\MenuScripts\Init_LoadPreferences.cs" />
     <Compile Include="Assets\Main Menu\MenuScripts\MenuController.cs" />
@@ -71,7 +75,9 @@
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\XP.cs" />
-    <Compile Include="Assets\TileGeneration.cs" />
+    <Compile Include="Assets\Target.cs" />
+    <Compile Include="Assets\WeaponSwitchning.cs" />
+    <Compile Include="Assets\Wybuch.cs" />
     <None Include="Assets\Main Menu\GUI Elements\UI_BrightnessShader\BrightnessEffect.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -602,31 +608,31 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Github/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/GItHub/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Github/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/GItHub/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Github/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/GItHub/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Github/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/GItHub/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Github/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/GItHub/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Github/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/GItHub/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Github/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/GItHub/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Github/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/GItHub/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Github/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/GItHub/Yera3gameyesbestyera33/game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
